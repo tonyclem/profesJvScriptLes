@@ -14,7 +14,7 @@ document.getElementsByTagName("button")[0].addEventListener("click", () => {
     const node = allParagraph[i];
     // increment count
     count++;
-    // added the count and text to allcontent \n mean break to new line
+    // added the count and text to allContent \n mean break to new line
     allContent += `${count} - ${node.textContent}\n`;
   }
   //   Show alert after loop with number, \n break to new line
